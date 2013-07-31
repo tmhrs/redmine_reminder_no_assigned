@@ -1,0 +1,3 @@
+ja:
+  mail_subject_reminder_no_assigned: "%{count}件のチケットが%{mins}分以上担当者が割り当てられていません"
+  mail_body_reminder_no_assigned: "%{count}件のチケットが、起票後担当者未割当のまま%{mins}分以上経過してます:"

@@ -1,0 +1,3 @@
+en:
+  mail_subject_reminder_no_assigned: "%{count} issue(s) is not assigned more than %{mins} minutes"
+  mail_body_reminder_no_assigned: "%{count} issue(s) is no assigned while %{mins} minutes more elapsed:"

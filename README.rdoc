@@ -1,0 +1,11 @@
+= 概要
+作成後、指定時間経過しても担当未割当チケットへのリマインダ
+
+= 使用方法
+　rake redmine:send_reminders_no_assigned (mins=60 project=demo tracker=1) RAILS_ENV="production"
+　※デフォルト値　mins:7, project:all, tracker:all
+
+= 検証環境
+Redmine 2.3.1.stable
+ruby 1.9.3
+Rails 3.2.13
