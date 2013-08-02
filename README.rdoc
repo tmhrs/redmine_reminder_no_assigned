@@ -3,7 +3,8 @@
 
 = 使用方法
 　rake redmine:send_reminders_no_assigned (mins=60 project=demo tracker=1) RAILS_ENV="production"
-　※デフォルト値　mins:7, project:all, tracker:all
+　※デフォルト値　mins:60, project:all, tracker:all
+　※プロジェクトメンバー全員へメール
 
 = 検証環境
 Redmine 2.3.1.stable
