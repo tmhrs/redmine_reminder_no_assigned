@@ -17,7 +17,7 @@ namespace :redmine do
     options[:tracker] = ENV['tracker'].to_i if ENV['tracker']
 
     Mailer.with_synched_deliveries do
-      RemindMailer.reminders_no_assigned(options)
+      RemindMailerNoAssigned.reminders_no_assigned(options)
     end
   end
 end
